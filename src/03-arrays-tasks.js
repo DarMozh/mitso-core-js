@@ -361,7 +361,7 @@ function getItemsSum(arr) {
  *  [ null, undefined, NaN, false, 0, '' ]  => 6
  */
 function getFalsyValuesCount(arr) {
-  return arr.filter((x) => !(x)).length;
+  return arr.join(',');
 }
 
 /**
