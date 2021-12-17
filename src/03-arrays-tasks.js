@@ -332,7 +332,6 @@ function sortDigitNamesByNumericOrder(arr) {
   return arr.map((x) => mapped2[x]).sort().map((x) => mapped1[x]);
 }
 
-
 /**
  * Returns the sum of all items in the specified array of numbers
  *
@@ -379,10 +378,9 @@ function getFalsyValuesCount(arr) {
  *    [ null, undefined, null ], null => 2
  *    [ true, 0, 1, 'true' ], true => 1
  */
-function findAllOccurrences(/* arr, item */) {
-  throw new Error('Not implemented');
+function findAllOccurrences(arr, item) {
+  return arr.filter((x) => x === item).length;
 }
-
 /**
  * Concatenates all elements from specified array into single string with ',' delimiter
  *
