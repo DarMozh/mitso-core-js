@@ -81,6 +81,7 @@ function getFirstChar(/* value */) {
   throw new Error('Not implemented');
 }
 
+
 /**
  * Removes a leading and trailing whitespace characters from string.
  *
@@ -92,8 +93,8 @@ function getFirstChar(/* value */) {
  *   'cat'              => 'cat'
  *   '\tHello, World! ' => 'Hello, World!'
  */
-function removeLeadingAndTrailingWhitespaces(/* value */) {
-  throw new Error('Not implemented');
+function removeLeadingAndTrailingWhitespaces(value) {
+  return value.trim();
 }
 
 /**
