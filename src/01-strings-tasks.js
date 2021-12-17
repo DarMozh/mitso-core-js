@@ -81,7 +81,6 @@ function getFirstChar(/* value */) {
   throw new Error('Not implemented');
 }
 
-
 /**
  * Removes a leading and trailing whitespace characters from string.
  *
@@ -139,8 +138,8 @@ function removeFirstOccurrences(str, value) {
  *   '<span>' => 'span'
  *   '<a>' => 'a'
  */
-function unbracketTag(/* str */) {
-  throw new Error('Not implemented');
+function unbracketTag(str) {
+  return str.slice(1, str.length - 1);
 }
 
 /**
