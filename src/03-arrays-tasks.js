@@ -565,7 +565,6 @@ function getElementByIndexes(arr, indexes) {
   return arr;
 }
 
-
 /**
  * Swaps the head and tail of the specified array:
  * the head (first half) of array move to the end, the tail (last half) move to the start.
