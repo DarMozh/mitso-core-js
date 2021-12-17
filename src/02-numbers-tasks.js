@@ -122,7 +122,7 @@ function getAngleBetweenVectors(x1, y1, x2, y2) {
  *     5     => 5
  *     0     => 0
  */
- function getLastDigit(value) {
+function getLastDigit(value) {
   return value % 10;
 }
 /**
@@ -153,8 +153,8 @@ function parseNumberFromString(/* value */) {
  *   3,3,3   => 5.196152422706632
  *   1,2,3   => 3.741657386773941
  */
-function parseNumberFromString(value) {
-  return Number(value);
+function getParallelepipedDiagonal(/* a, b, c */) {
+  throw new Error('Not implemented');
 }
 
 /**
